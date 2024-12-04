@@ -35,7 +35,6 @@ function Indianfood() {
     }
 
     function AddtoCart(ele) {
-        console.log(ele);
         dispatch(addTocart(ele));  // Redux action to add to cart
         sendToBackend(ele);  // Send item details to backend
     }
